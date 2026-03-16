@@ -18,7 +18,7 @@ console.log(custBal);
 
 //object
 var person = { name1: "john", age1: 40 };
-console.log(person.name1 + "--- " + person.age1);
+console.log("person name: " + person.name1 + " --- " + person.age1);
 
 //object destructuring
 var { name1, age1 } = person;
